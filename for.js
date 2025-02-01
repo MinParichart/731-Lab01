@@ -11,7 +11,7 @@
 // }
 
 // 3.ทดลองเขียนโปรแกรม โดยสร้าง list ของชื้อคน จำนวน 5 คน
-let peopleName = ['Labubu', 'James', 'Smith','Nana Ray', 'Molly', 'Crybaby', 'Tim']
+let peopleName = ['Labubu', 'James', 'Smith','Nana Ray', 'Crybaby']
 for (let i = 0; i < peopleName.length; i++){ 
     if ( peopleName[i].length > 6) { 
         console.log("สวัสดีคุณชื่อ : " + peopleName[i])
