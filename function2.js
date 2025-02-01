@@ -9,8 +9,11 @@
 // console.log(greet('John'))
 
 // Arrow Function หลายบรรทัด 
-// const multiply = (x,y) => { return x + y }
-// console.log(multiply (5,10))
+const multiply = (x,y) => { return x + y }
+console.log(multiply (5,10))
+module.exports = { 
+    multiply
+}
 
 // Arrow Function โดยให้รับค่าตัวแปร 2 ค่า แล้วคืนค่าที่มากกว่าออกมา 
 const receiveNum = (x,y) => {
