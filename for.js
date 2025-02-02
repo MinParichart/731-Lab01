@@ -14,7 +14,7 @@
 let peopleName = ['Labubu', 'James', 'Smith','Nana Ray', 'Crybaby']
 for (let i = 0; i < peopleName.length; i++){ 
     if ( peopleName[i].length > 6) { 
-        console.log("สวัสดีคุณชื่อ : " + peopleName[i])
+        console.log("สวัสดีคุณ : " + peopleName[i])
     } else { 
         console.log("Hello : " + peopleName[i])
     }
